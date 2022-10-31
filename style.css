@@ -2,26 +2,134 @@ html, body {
   height: 100%;
   width: 100%;
 }
-html
-h1 {
 
-    color: rgb(53, 130, 144);
-    text-decoration: aqua;
+@media onlyscreen( max-width: 1440 and  min-width: 376) {
+    main{
+        padding: 10px;
+    }
+    
+   
+   
+    
 }
-h2 {
-    color: rgb(105, 11, 11);
+* {
+    margin:0 ;padding:0;
 }
-footer {
-    color: cornflowerblue;
-    border: blue;
+
+body {
+    background-color: hsla(0,0%,95);
     font-size: larger;
-    position: static;
-}
-button {
-    size: 5vmax;
-    color: rgb(83, 16, 16);
-    background-color: blueviolet ;
-    border-radius: 50%;
-
 }
 
+main {
+    width: 50%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: lightgrey;
+
+font-family:Lexend Deca ;
+}
+
+.tOP1 {
+  background-color: hsl(31, 77%, 52%);
+
+ 
+ height: 50;
+  width: 50%;
+  font-family: url();
+
+}
+.tOP1 p{  font-size:15px ;
+   padding: 2em;
+    text-decoration-color: hsla(0,0%,100);
+font-weight: 400;
+
+}
+.tOP2 p{
+
+     font-size:15px ;
+   
+    font-weight: 400;
+    text-decoration-color: hsl(0,0%,100);
+    padding: 2em;
+}   
+
+.top2 {
+    width: 50%;
+    background-color: hsl(184, 100%, 22%);
+    font-family: url(https://fonts.google.com/share?selection.family=Lexend%20Deca:wght@700);
+}
+h3{
+    color:hsl(0,0%,95);
+    font-weight: bold;
+   width: 50%;
+
+}
+button{
+    color:hsl(0,0%,100);
+    font-weight: bold;
+    font-family: ;
+    size: 20px;
+}
+.top3 {
+
+    background-color: hsl(179, 100%, 13%);
+    width: 50%;
+}
+.tOP3 p{  font-size:15px ;
+   font-family:  https://fonts.google.com/share?selection.family=Lexend%20Deca:wght@700
+    font-weight;
+    text-decoration-color: hsl(0,0%,100);
+    padding: 2em;
+}
+.b4{ 
+    display: flex;
+    
+
+}
+button{
+  
+    align-self: center;
+
+
+}
+main{
+    border: radius 15px; 
+}
+main div{
+    padding: 2em;
+    text-align: center;
+} 
+a{
+
+    text-decoration: none;
+}
+.button1{
+    color: hsl(31, 77%, 52%) ;
+    border: white;
+    background-color: transparent white;
+    
+    }
+    .button2{
+        background-color: transparent white ;
+        color: hsl(184, 100%, 22%);
+    }
+    .button3{
+        background-color: transparent white ;
+        color: hsl(179, 100%, 13%);
+    }
+    button{
+        border-radius: 20px;
+        border: white;
+        color:white;
+    }
+.link {
+  color:red;
+}
+span{
+  color:black
+}
